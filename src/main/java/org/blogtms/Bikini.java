@@ -2,7 +2,7 @@ package org.blogtms;
 
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Bikini implements Outfit {
     @Override
     public void wear() {

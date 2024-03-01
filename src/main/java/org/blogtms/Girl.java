@@ -1,9 +1,10 @@
 package org.blogtms;
 
+import com.google.inject.Inject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Girl {
 
     @Autowired
@@ -15,6 +16,7 @@ public class Girl {
     @Autowired
     HairStyle hairStyle;
 
+    @Inject
     public Girl(Outfit outfit, Accessories accessories, HairStyle hairStyle) {
         this.outfit = outfit;
         this.accessories = accessories;
